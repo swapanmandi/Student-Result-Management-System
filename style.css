@@ -1,0 +1,69 @@
+body{
+	margin:0px;
+}
+.navbar{
+	background-color:bisque;
+	text-align:center;
+	display:flex;
+	padding:10px;
+	margin-bottom: 20px;
+}
+.navbar a{
+    text-decoration:none;
+	display:flex;
+	flex:auto;
+}
+.result-div, .admin-div, .data-div, .addresult-div{
+			float: left;
+			background-color: aqua;
+			width: 40%;
+			margin: 4%;
+			height: 300px;
+			text-align:center;
+			padding: 20px 0;
+		}
+		.result-view-div{
+			width: 100%;
+			text-align:center;
+			border:3px solid firebrick;
+		}
+.result-cont{
+	border:2px solid black;
+	justify-content:center;
+			display:inline-grid;
+}
+
+.result-div-1{
+			text-align: left;
+			text-align:cente;
+			justify-content:center;
+			display:flex;
+		}
+		 table,th, td {
+		border: 2px solid green; 
+		border-collapse: collapse;
+		padding: 15px;
+		text-align:center;
+		margin:auto;
+	}
+	.reg-div {
+		height: 300px;
+		width: 500px;
+		margin: auto;
+        border-radius: 10px;
+		display: flex;
+		justify-content: center;
+		background-color: aqua;
+		font-style: italic;
+
+	}
+	.reg-div input{
+		margin: 10px;
+		padding: 5px;
+		border-radius: 8px;
+	}
+	.msg{
+		justify-content: center;
+		display: block;
+	}
+	

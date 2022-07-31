@@ -1,0 +1,126 @@
+body{
+	margin:0px;
+}
+.navbar{
+	width: 100%;
+	position: fixed;
+	background-color:bisque;
+	text-align:center;
+	display:flex;
+	padding:20px;
+}
+.navbar a{
+    text-decoration:none;
+	display:flex;
+	flex:auto;
+	
+}
+.admin-div, .data-div, .addresult-div{
+			float: left;
+			background-color: aqua;
+			width: 40%;
+			margin: 5%;
+			height: 300px;
+			
+
+		}
+.result-div{
+	width:300px;
+	height:100%;
+	background:aqua;
+	margin:auto;
+    display:table;
+	text-align:center;
+	padding: 10px;
+	
+}
+		.result-view-div{
+			float: left;
+			background-color: aqua;
+			width: 40%;
+			margin: 5%;
+			text-align: center;
+		}
+		.result-div-1{
+			text-align: left;
+		}
+		 .view-class th{
+
+		border-collapse: collapse;
+		padding: 25px;
+	}
+
+	
+		/* class css */
+
+		.reg-div, .sdt-div{
+			float: left;
+			background-color: aqua;
+			width: 40%;
+			margin: 4%;
+			height: 100%;
+			padding: 20px 0px 20px 20px;
+			align-items: center;
+		}
+		.sdt-div table{
+                 padding-left:130px;
+          }
+		.tab1, .tab2{
+			float: left;
+			background-color: aqua;
+			width: 40%;
+			margin: 4%;
+			height: 300px;
+			text-align:center;
+			padding: 20px 0;
+		}
+		.img-div{
+	         background:;
+	         width:100%;
+             float:left;
+             display: flex;
+             height: 150px;
+			margin: 60px 30px 30px 0px;
+        }
+         .img-div img, figcaption{
+                   	padding: 0px 60px 0px 100px;
+	                align-items: center;
+        }
+        .sub-div, .subject, .sub-view-class{
+  
+			float: left;
+			background-color: aqua;
+			width: 40%;
+			margin: 4%;
+			height: 100%;
+			text-align:center;
+			padding: 20px 0;
+		}
+		#dataTable td {
+			border-collapse: collapse;
+		padding: 15px;
+		}
+.class, .classList{
+	margin:auto;
+	background:aqua;
+	height:100%;
+	width:500px;
+	text-align:center;
+	padding: 10px;
+}
+.classList a{
+	display:block;
+	padding:10px;
+	
+}
+.mark-div{
+	height: 100%;
+	width: 500px;
+	background:aqua;
+	margin:auto;
+	text-align:center;
+	padding:10px;
+}
+.mark-div table{
+	margin:auto;
+}

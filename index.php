@@ -4,7 +4,6 @@ include 'admin/conn.php';
 include 'header.php';
 ?>
 
-
 	<div class="main-div">
 		<div class="result-div">
 
@@ -31,7 +30,7 @@ include 'header.php';
         ?>
  
     </select>
-				<br><br>
+	<br><br>
 
 
 				<button type="submit">Search</button>

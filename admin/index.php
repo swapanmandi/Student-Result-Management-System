@@ -6,6 +6,7 @@ include 'header.php';
 
 <?php 
 
+
 		$sql = " SELECT * FROM `students`";
               $result = mysqli_query($con, $sql);
               $student_count = mysqli_num_rows($result);

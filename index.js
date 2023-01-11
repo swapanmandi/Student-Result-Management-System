@@ -5,7 +5,7 @@ function btn(){
 
 
 
-//for pdf download
+//for downloading result in PDF format
 
 
 	var element = document.getElementById("makepdf");
